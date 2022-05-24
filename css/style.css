@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-color: lightgray;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+header{
+  width: 100%;
+  height: 130px;
+}
+section.primeira-coluna{
+  width: 60vw;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+}
+img{
+  width: 40vw;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+}
+section.segunda-coluna {
+  width: 60vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+div{
+  margin-bottom: 150px;
+  text-align: left;
+}
+div.lx{
+  margin-bottom: 150px;
+  text-align: center;
+}
+.labels{
+  text-align: left;
+}
+.flex{
+  font-family: inherit;
+  font-size: 50px;
+  text-align: center; 
+  
+}
+h2{
+  font-family: inherit;
+  color: rgb(3, 17, 21);
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+input {
+  width: 380px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  border: 2px  solid #000000;
+}
+.input-cadastro {
+  display: flex;
+  width: 380px;
+}
+.btn{
+  position: relative;
+  font-size: 20px;
+  width: 383px;
+  height: 40px;
+  background-color:rgba(209, 131, 28, 0.937);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+button:hover {
+  opacity: 1;
+}
+a{
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(209, 131, 28, 0.937);
+}
+p.titulo{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 50px;
+  color:azure;
+  margin-top:65px
+}
+
+div.status{
+  position: absolute; 
+  margin-top: 70px;
+}
+
+.email{
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ccc{
+
+  text-align: center;
+}
+
+.yyy{
+
+  position: absolute;
+  right:35px;
+  
+}
+
+
